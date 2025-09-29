@@ -1,0 +1,96 @@
+# Site settings for IfixWPQuickly.com - WordPress Emergency Service
+title: "IfixWPQuick - WordPress Emergency Recovery Specialists"
+email: emergency@ifixwpquick.com
+description: >-
+  24-48 Hour WordPress Emergency Recovery Service. Malware removal, site crashes,
+  hacked sites, and critical WordPress issues fixed fast by certified specialists.
+  Professional diagnostic approach with 30-day guarantee.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ifixwpquick.com" # the base hostname & protocol for your site
+twitter_username: ifixwpquickly
+github_username: ifixwpquickly
+
+# Contact Information
+phone: "+1-307-269-2691"
+emergency_phone: "+1-307-269-2691"
+business_hours: "24/7 Emergency Response"
+timezone: "All US Timezones"
+
+# Service Information
+services:
+  emergency_recovery:
+    name: "WordPress Emergency Fix"
+    price: "$175-289"
+    timeline: "Same day"
+    guarantee: "Security cleanup included"
+
+  performance_optimization:
+    name: "WordPress Performance Optimization"
+    price: "$139-229"
+    timeline: "Same day"
+    guarantee: "Core Web Vitals improvement"
+
+  ongoing_maintenance:
+    name: "WordPress Ongoing Maintenance"
+    price: "$89/month"
+    timeline: "Monthly"
+    guarantee: "Priority support included"
+
+  security_hardening:
+    name: "WordPress Security Hardening"
+    price: "$175"
+    timeline: "Same day"
+    guarantee: "Prevention recommendations"
+
+# WordPress Specializations
+specializations:
+  - "WordPress Malware Removal"
+  - "Hacked Site Recovery"
+  - "Site Speed Emergencies"
+  - "Database Corruption Repair"
+  - "Plugin Conflict Resolution"
+  - "Emergency Site Migration"
+  - "WordPress Security Hardening"
+  - "Backup Recovery Services"
+
+# Testimonial highlights
+testimonials:
+  featured: "Saved my business! Site was down for 3 days, they fixed it in 6 hours."
+  rating: "5.0 stars"
+  review_count: "147+ emergency recoveries"
+
+# SEO Settings
+seo:
+  title_template: "%s | IfixWPQuickly - WordPress Emergency Specialists"
+  description_template: "Emergency WordPress repair service. %s Fixed fast by certified specialists with 30-day guarantee."
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Custom variables
+emergency_badge: "⚡ 24-Hour Emergency Response"
+guarantee_badge: "✅ 30-Day Guarantee"
+specialist_badge: "🎯 WordPress Specialists Only"
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - src/
