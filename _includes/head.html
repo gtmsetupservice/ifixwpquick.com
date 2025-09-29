@@ -13,4 +13,13 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+
+  <!-- Structured Data -->
+  {%- include structured-data-organization.html -%}
+  {%- include structured-data-breadcrumb.html -%}
+  {%- include structured-data-article.html -%}
+  {%- if page.url == "/" -%}
+    {%- include structured-data-faq.html -%}
+    {%- include structured-data-reviews.html -%}
+  {%- endif -%}
 </head>
