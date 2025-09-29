@@ -8,8 +8,8 @@ description: >-
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ifixwpquick.com" # the base hostname & protocol for your site
-twitter_username: ifixwpquickly
-github_username: ifixwpquickly
+twitter_username: ifixwpquick
+github_username: ifixwpquick
 
 # Contact Information
 phone: "+1-307-269-2691"
