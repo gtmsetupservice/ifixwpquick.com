@@ -3,11 +3,6 @@ source "https://rubygems.org"
 # Use GitHub Pages compatible Jekyll
 gem "github-pages", group: :jekyll_plugins
 
-# Required for Ruby 3.4+ (local development only)
-gem "csv"
-gem "logger"
-gem "base64"
-
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do

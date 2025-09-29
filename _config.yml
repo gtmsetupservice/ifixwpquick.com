@@ -72,6 +72,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+# Analytics
+google_analytics: G-XKY7WKM51L
+
 # Custom variables
 emergency_badge: "⚡ 24-Hour Emergency Response"
 guarantee_badge: "✅ 30-Day Guarantee"
