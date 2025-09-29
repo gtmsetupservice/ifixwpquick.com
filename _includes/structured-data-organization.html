@@ -1,0 +1,88 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "{{ site.url }}/#organization",
+  "name": "{{ site.title }}",
+  "description": "{{ site.description }}",
+  "url": "{{ site.url }}",
+  "telephone": "{{ site.emergency_phone }}",
+  "email": "{{ site.email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "US",
+    "addressRegion": "Nationwide"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 39.8283,
+    "longitude": -98.5795
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "serviceType": "WordPress Emergency Repair Service",
+  "priceRange": "$175-$289",
+  "paymentAccepted": ["Cash", "Credit Card", "PayPal"],
+  "currenciesAccepted": "USD",
+  "openingHours": "Mo-Su 00:00-23:59",
+  "availableLanguage": "English",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "WordPress Emergency Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "WordPress Emergency Recovery",
+          "description": "Same-day WordPress emergency fixes including malware removal, site crashes, and hacked site recovery"
+        },
+        "price": "175-289",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "WordPress Performance Optimization",
+          "description": "WordPress speed optimization and Core Web Vitals improvement"
+        },
+        "price": "139-229",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "WordPress Security Hardening",
+          "description": "WordPress security hardening with prevention recommendations"
+        },
+        "price": "175",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "WordPress Ongoing Maintenance",
+          "description": "Monthly WordPress maintenance with priority support"
+        },
+        "price": "89",
+        "priceCurrency": "USD",
+        "billingPeriod": "Monthly"
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "147"
+  },
+  "sameAs": [
+    "https://twitter.com/{{ site.twitter_username }}",
+    "https://github.com/{{ site.github_username }}"
+  ]
+}
+</script>
